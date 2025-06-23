@@ -1,15 +1,15 @@
-🖥️ NTI Web Design Tasks Repository
+# 🖥️ NTI Web Design Tasks Repository
 This repository contains a collection of web design tasks completed during my training at the National Telecommunication Institute (NTI).
 
-🛠️ Technologies Used:
+## 🛠️ Technologies Used:
 
-HTML – Semantic structure and accessibility
+* HTML – Semantic structure and accessibility
 
-CSS – Styling and layout techniques
+* CSS – Styling and layout techniques
 
-JavaScript – Dynamic behavior and interactivity
+* JavaScript – Dynamic behavior and interactivity
 
-Bootstrap – Responsive design and UI components
+* Bootstrap – Responsive design and UI components
 
 Each task demonstrates practical implementation of front-end development concepts, with a focus on clean design, responsive layouts, and user experience.
 
