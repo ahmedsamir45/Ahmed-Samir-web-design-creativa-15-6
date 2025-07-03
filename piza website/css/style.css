@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+.green{
+    color: #01C550;
+}
+.yellow{
+    color: #FF9921;
+}
+
+.orange-bg{
+    background-color: #FF8A00;
+}
+.orange-btn-bg{
+    background-color: #FF9921;
+}
+.orange-text{
+    color: #FF9921;
+}
+.container{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+nav{
+    flex-shrink: 2;
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    gap: 50px;
+
+padding: 20px 10px;
+margin-top: 70px;
+}
+main{
+        margin-top: 40px;
+        margin-right: 15px;
+        width: 60%;
+        padding: auto 10px;
+}
+aside{
+    width: 30%;
+    margin-top:40px ;
+}
+
+nav i{
+    color: #B4BCCF;
+    
+}
+nav a{
+        padding: 15px;
+}
+.active{
+
+    border-radius: 15px;
+    box-shadow: 0 4 15 0 #ff8a00;
+}
+.active i{
+       color: #fff !important;
+       
+}
+
+main header{
+    display: flex;
+    justify-content: space-between;
+}
+main header span{
+    color: #B4BCCF;
+}
+
+form{
+    position: relative;
+}
+main header form input{
+    border: none;
+    background-color: #B4BCCF69;
+    padding: 10px;
+    padding-left: 40px;
+}
+form i{
+    position: absolute;
+    left: 6px;
+    top: 10px;
+}
+main header form input:focus{
+    outline: none;
+}
+main header form input[type="search"]::placeholder{
+    color: #61656F;
+ 
+}
+.big-card{
+    background-color: #2F2F2F;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+.big-card .text{
+    padding: 20px;
+    width: 60%;
+}
+.big-card h1{
+    margin-bottom: 10px;
+    
+}
+.btn{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius:15px ;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.big-card  img{
+width: 30%;
+}
+.mid{
+    display: flex;
+
+    margin-top: 10px ;
+    align-items: center;
+    /* gap: 5%; */
+}
+
+.mid ul{
+    display: flex;
+    /* gap: 30%; */
+    margin: 10px auto;
+
+}
+
+.mid ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: auto 35px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.mid ul li i{
+    background-color: #D9D9D9;
+    padding: 5px;
+    border-radius: 50%;
+}
+.seeAll{
+    text-transform: capitalize;
+}
+
+main .bottom {
+    display: flex;
+    gap: 4%;
+}
+main .bottom .card{
+    display: flex;
+    box-shadow: 2px 6px 30px 0px #0000001A;
+    border-radius: 30px;
+}
+main .bottom .card .warpper{
+    margin-left:10px ;
+    position: relative;
+    padding: 10px;
+}
+main .bottom .card  img{
+    width: 140px;
+}
+
+main .bottom .card{
+    width: 40%;
+}
+main .bottom .card h2{
+    margin-bottom: 10px;
+}
+main .bottom .warpper span{
+    color: #B4BCCF;
+}
+main .bottom .warpper div{
+    font-size: 20px;
+    margin: 10px auto;
+
+}
+main .bottom .warpper i{
+    position: absolute;
+    box-shadow: 2px 2px 15px 0px #00000026;
+    border-radius: 20px;
+    left: 70%;
+    bottom: 20%;
+    padding: 7px;
+}
+
+aside header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside header h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+aside  img{
+    width: 80%;
+
+}
+
+aside .bottom{
+    display: flex;
+    flex-direction: column;
+}
+aside .bottom .card{
+    background-color: #B4BCCF4D;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    box-shadow: 4px 4px 30px 0px #0000001A;
+}
+aside .card button{
+    background-color: white;
+    border: none;
+    padding: 3px;
+    box-shadow: 2px 2px 10px 0px #0000000D;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+aside .card button i{
+    font-weight: bold;
+
+}
+aside .card .warpper > span{
+    color: #61656F;
+}
+aside .card .warpper {
+    position: relative;
+}
+aside .bottom .card img{
+    width: 89px;
+    margin-right: 10px;
+}
+aside .card .green{
+    font-size: 18px;
+    font-weight: 700;
+}
+aside .card  .quantity{
+    position: absolute;
+    right: 100px;
+}
+
+aside .price{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-content: center;
+}
+aside .price div{
+        font-size: 34px;
+    font-weight: 700;
+}
+aside >button{
+   font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+display: block;
+margin: auto;
+margin-bottom: 20px;
+}
+aside header  img{
+    width: 63px;
+}

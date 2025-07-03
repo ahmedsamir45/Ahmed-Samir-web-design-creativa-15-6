@@ -1,0 +1,537 @@
+/* global-style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body > div{
+    padding: 10%;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+.it{
+    color: #a95c25;
+}
+.free{
+    text-transform: uppercase;
+    color: #a95c25;
+}
+/* nav-style */
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+}
+nav ul{
+    float: right;
+
+}
+nav ul li{
+    display: inline-block;
+    width: 66px;
+    margin: auto 13px;
+    text-align: center;
+    vertical-align:middle;
+    line-height: 1.9;
+    
+}
+nav a{
+    transition: .5s;
+    color: white;
+}
+nav a:hover{
+    color: #a95c25;
+}
+button{
+    cursor: pointer;
+}
+
+.main-logo{
+    font-size: 30px;
+}
+
+/* landing-section */
+.landing-section{
+    background-image: url("../images/old\ house.png");
+    background-size: cover;
+ 
+}
+
+.overlayer{
+width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62);
+    padding: 5%;
+    
+}
+.landing-section .main .logo{
+    font-size: 60px;
+ 
+}
+
+.landing-section .main > *{
+    margin-bottom: 20px;
+}
+.landing-section .main{
+    width: 70%;
+    display:inline-block;
+    color: white;
+    margin-left: 50px;
+}
+.landing-section .main .title-one hr{
+    width: 75px;
+    background-color: white;
+    height: 2px;
+    border: none;
+}
+.landing-section .main h2{
+    text-transform: uppercase;
+    width: 50%;
+    margin-bottom: 10px;
+}
+button.download{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+}
+.landing-section .form-body{
+ 
+    padding: 15px;
+}
+.landing-section form{
+       display: inline-block;
+    width: 20%;
+    background-color: white;
+    
+}
+.landing-section form h2{
+font-size: 15px;
+    background-color: #c2c0c0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+}
+.landing-section form button{
+    width: 100%;
+    background-color: #a95c25;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.landing-section .form-body input{
+    width: 100%;
+    border: none;
+    border-bottom:1px solid grey ;
+    margin-bottom: 20px;
+}
+ input:focus{
+    border: none;
+    outline: none;
+}
+.landing-section p{
+
+    width: 50%;
+    
+}
+
+.grey{
+    background-color: rgb(201, 201, 201);
+}
+
+.social-section .main{
+    display: inline-block;
+    width: 37%;
+}
+.social-section .icons{
+    display: inline-block;
+    width: 60%;
+}
+.social-section{
+    padding: 10px 10%;
+}
+.social-section .icons a{
+    margin-right: 4cqmin;
+    float: right;
+}
+.social-section .icons i{
+  color: #c2c0c0;
+    font-size: 40px;
+    
+ 
+}
+
+.sub-section{
+    padding:  10%;
+}
+.sub-section .image{
+    display: inline-block;
+    width: 30%;
+    margin-right: 19%;
+}
+.sub-section .image img{
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.sub-section .main{
+    display: inline-block;
+    width: 50%;
+}
+.title-one{
+    margin-bottom: 20px;
+}
+.sub-section .main .title-one h2{
+    margin-bottom: 10px;
+}
+.sub-section .main .title-one hr{
+    width: 75px;
+    background-color: #a95c25;
+    height: 2px;
+    border: none;
+}
+.sub-section .main p{
+    margin-bottom: 20px;
+}
+.sub-section .main .titles i,
+.sub-section .main .titles .title .text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.sub-section .main .titles .title i{
+    color: #a95c25;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #a95c25;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.sub-section .main .titles .title .text {
+    width: auto;
+}
+.sub-section .main .titles .title{
+    display: inline-block;
+
+}
+.sub-section .main .titles .title .text{
+
+display: inline-block;
+width: 80%;
+
+
+
+}
+
+
+.tabs-section{
+    padding: 10% ;
+
+}
+.tabs-section .list-tabs{
+    display: inline-block;
+    width: 80px;
+    margin-right: 4%;
+
+}
+.tabs-section .list-tabs div{
+    padding: 30px 20px;
+    background-color: rgb(26, 24, 24);
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+
+}
+.tabs-section .list-tabs div:hover{
+    background-color: #d17838;
+}
+.selected{
+    background-color: #d17838 !important;
+}
+.tabs-section .main{
+    display: inline-block;
+    width: 50%;
+}
+.tabs-section .main h2{
+    margin-bottom: 10px;
+}
+.tabs-section .main p{
+    margin-bottom: 20px;
+}
+.tabs-section .main button{
+    padding: 10px;
+    background-color: #a95c25;
+    color: white;
+    border: none;
+}
+.tabs-section .image{
+    display: inline-block;
+    width: 20%;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0,0,0,0.1));
+    margin-bottom: 10%;
+}
+.sub-section2{
+    padding: 10%;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+.sub-section2 .image{
+display: inline-block;
+    width: 30%;
+
+}
+.sub-section2 .image img{
+    width: 100%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+.sub-section2 .main{
+    display: inline-block;
+    width: 50%;
+    margin-right: 15%;
+}
+
+.sub-section2 .main .title-one h2{
+    margin-bottom: 10px;
+}
+.sub-section2 .main .title-one hr{
+    width: 75px;
+    background-color: #a95c25;
+    height: 2px;
+    border: none;
+}
+.sub-section2 .main p{
+    margin-bottom: 20px;
+}
+.awesome{
+    padding: 10%;
+}
+.title-two{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-two h2{
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: 300;
+
+}
+.title-two hr{
+    width: 50px;
+    margin: auto;
+    background-color: #ff8a37;
+    border: none;
+    height: 2px;
+}
+.awesome p{
+    text-align: center;
+    margin: 20px auto;
+}
+.awesome .cards .card{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin-right: 3%;
+}
+.awesome .cards .card i{
+    border: 1px solid #a95c25;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 1.8;
+    width: 50px;
+    height: 50px;
+    color: #d17838;
+}
+.pricing span{
+    font-weight: bold;
+}
+.pricing >p{
+    text-align: center;
+    margin: 20px;
+}
+.pricing .cards .card{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+.pricing .card .screen{
+    background-color: rgb(32, 29, 29);
+    color: white;
+    border-bottom: 3px solid #a95c25;
+}
+.pricing .card h3{
+    color: white;
+    border-bottom:1px solid white;
+    padding: 8px;
+    text-align: center;
+    font-size: small;
+}
+.price{
+    padding: 10px;
+    text-align: center;
+}
+.price .cost{
+    font-size: 60px;
+    font-weight: bold;
+}
+.pricing .screen p{
+    text-align: center;
+    margin: 8px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 10px ;
+}
+.pricing .card.middle >p{
+    background-color: #ff8e3c;
+    color: white;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+}
+.pricing .card .details{
+    background-color: white;
+}
+.pricing .card .details p{
+    padding: 5px;
+    text-align: center;
+
+}
+.customers > p{
+    text-align: center;
+    margin: 20px;
+}
+.customers .card{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid rgb(213, 212, 212);
+  margin-top: -10px;
+  margin-left: 12px;
+}
+.customers .cards .card p{
+    background-color: rgb(213, 212, 212);
+    padding: 10px 5px;
+    border-radius: 6px;
+}
+.customers .box .text{
+    display: inline-block;
+    vertical-align:10px;
+    margin-left: 5px;
+}
+.customers .box img{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.stylish{
+    background:url("../images/old\ house.png");
+    padding: 0;
+    background-size: cover;
+}
+.stylish .title-two{
+    color: white;
+}
+.stylish .title-two hr{
+    background-color: white ;
+}
+.stylish p{
+    color: white;
+    text-align: center;
+}
+.stylish button{
+    margin: 2% auto ;
+    display: block;
+}
+
+input::placeholder,textarea::placeholder{
+    text-transform: capitalize;
+}
+.contact .inputs{
+    display: inline-block;
+    width: 48%;
+}
+
+.contact .textarea{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+.contact .textarea textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+.contact input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+
+}
+
+.contact p{
+    text-align: center;
+    color: grey;
+    margin: 3%;
+}
+.contact form .inputs{
+    margin-right: 2%;
+}
+.contact button{
+    background-color: #ff8834;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: 3% auto;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer .links{
+    text-align: center;
+    color: white;
+}
+.links i{
+    color: white;
+}
+.links a{
+    margin-right: 4%;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 100;
+}
