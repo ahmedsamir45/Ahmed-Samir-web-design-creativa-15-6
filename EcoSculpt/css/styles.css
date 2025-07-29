@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.bg-green{
+    background-color: #2DA884;
+    color: white;
+}
+.green{
+    color: #2DA884;
+}
+.bg-white{
+    background-color: white;
+}
+
+section{
+    background-image: url("../img/landing-img.png");
+}
+
+header{
+    display: flex;
+justify-content: space-between;
+    align-items: center;
+padding: 1.5% 6.5%;
+color: white;
+border-bottom: white 1px solid;
+}
+header a{
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header .buttons{
+    display: flex;
+    gap: 5px;
+}
+.buttons a{
+    padding: 16px 40px;
+    border-radius:100px;
+}
+.logo h2{
+    font-family: Montserrat;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 38px;
+
+line-height: 48px;
+letter-spacing: 0%;
+
+}
+.landing{
+    padding: 10px;
+}
+section .start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.landing .start h1{
+    font-family: Montserrat;
+font-weight: 700;
+font-style: Bold;
+font-size: 138px;
+
+line-height: 144px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.landing .start p{
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+width: 40%;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px auto;
+}
+section.landing .start .text{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+     color:#232A42;;
+     width: 68%;
+     border-radius: 16px;
+}
+
+.stats .block p{
+    text-align: center;
+    padding: 2.2%;
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size:16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.stats .block h3{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 50px;
+
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.stats .block{
+   margin: 10px;
+   width: 25%;
+   text-align: center;
+}
+.border-left{
+   border-left: 1px solid black;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 10px;
+}
